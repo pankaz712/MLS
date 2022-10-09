@@ -9,7 +9,7 @@ plt.style.use('ggplot')
 def true_func(x):
     '''
     @param x: input number
-    @return: reutns y mapped by f(x) = intercept + B1*x + random error
+    @return: reutns y mapped by f(x) = intercept + B1*x
     '''
     # s = np.random.normal(mu, sigma, 1)
     y = 500 + (300 * x)
